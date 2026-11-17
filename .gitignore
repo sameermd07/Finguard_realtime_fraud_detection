@@ -1,0 +1,21 @@
+# Secrets and local config - never commit these
+.env
+.env.*
+*.pem
+*.key
+secrets*.json
+
+# Databricks archives can contain notebook outputs and credentials
+*.dbc
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
